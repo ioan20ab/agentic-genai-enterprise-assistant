@@ -1,0 +1,11 @@
+{
+  "type": "object",
+  "properties": {
+    "ticket_id": { "type": "string" },
+    "title": { "type": "string" },
+    "description": { "type": "string" },
+    "category": { "type": "string", "enum": ["IT", "HSE", "Finance", "General"] },
+    "created_at": { "type": "string" }
+  },
+  "required": ["ticket_id", "title", "description", "category"]
+}

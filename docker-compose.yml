@@ -1,0 +1,17 @@
+services:
+  assistant:
+    build: .
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    environment:
+      DOCS_DIR: /app/data/docs
+      INDEX_PATH: /app/data/index/index.json
+    volumes:
+      - ./data/sample_docs:/app/data/docs:ro   # point this at your own documents folder
+      - index:/app/data/index
+    restart: unless-stopped
+
+volumes:
+  index:

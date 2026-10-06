@@ -1,0 +1,22 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements-dev.txt
+      - name: Unit and API tests (offline mode, no API key needed)
+        run: pytest -q
+      - name: RAG evaluation
+        run: python -m eval.evaluate --chunk-sizes 300 800
+      - name: Docker image builds
+        run: docker build -t enterprise-assistant .

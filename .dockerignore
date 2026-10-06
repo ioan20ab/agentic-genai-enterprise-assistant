@@ -1,0 +1,9 @@
+.venv
+.git
+.env
+__pycache__
+.pytest_cache
+tests
+eval
+data/index.json
+data/actions_log.jsonl

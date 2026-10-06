@@ -1,0 +1,9 @@
+[project]
+name = "agentic-genai-enterprise-assistant"
+version = "0.1.0"
+description = "Agentic GenAI assistant for enterprise documents: LLM tool calling, RAG, FastAPI, Teams and Power Automate integration."
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

@@ -1,0 +1,10 @@
+{"id": "q1", "question": "Within how many hours must a near miss be reported?", "expected_source": "hse_site_safety_policy.md", "expected_terms": ["24 hours"]}
+{"id": "q2", "question": "What PPE is mandatory in active construction zones?", "expected_source": "hse_site_safety_policy.md", "expected_terms": ["hard hats", "high-visibility"]}
+{"id": "q3", "question": "How often must scaffolding be inspected?", "expected_source": "hse_site_safety_policy.md", "expected_terms": ["7 days"]}
+{"id": "q4", "question": "What is the hotel limit per night in Athens?", "expected_source": "travel_and_expense_policy.md", "expected_terms": ["150 EUR"]}
+{"id": "q5", "question": "What is the daily meal allowance when travelling?", "expected_source": "travel_and_expense_policy.md", "expected_terms": ["40 EUR"]}
+{"id": "q6", "question": "How long do I have to submit an expense claim?", "expected_source": "travel_and_expense_policy.md", "expected_terms": ["30 days"]}
+{"id": "q7", "question": "How long must a password be?", "expected_source": "it_access_and_equipment.md", "expected_terms": ["14 characters"]}
+{"id": "q8", "question": "How quickly must a lost laptop be reported?", "expected_source": "it_access_and_equipment.md", "expected_terms": ["2 hours"]}
+{"id": "q9", "question": "What do I need for remote access to internal systems?", "expected_source": "it_access_and_equipment.md", "expected_terms": ["VPN", "multi-factor"]}
+{"id": "q10", "question": "How is a private car reimbursed for business trips?", "expected_source": "travel_and_expense_policy.md", "expected_terms": ["0.30 EUR"]}
